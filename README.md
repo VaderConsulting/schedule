@@ -1,6 +1,6 @@
 # schedule
 
-VB6 working copy of `schedule` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: Edanmo's Task Scheduler Class v1.01. Output: `Schedule.dll`. Edanmo's Task Scheduler Class v1.01. `VersionCompanyName`: Eduardo A. Morcillo. Contains 2 `.vbp` projects.
+Eduardo A. Morcillo (Edanmo) VB6 Task Scheduler Class v1.01 (`Schedule.dll` / `TaskScheduler` ActiveX DLL) wrapping Windows Task Scheduler jobs, triggers, and schedule objects, plus a small `Test` host. Sensitive class/module sources are redacted to `*.example` in this tree. Open `Schedule.vbg` or the `.vbp` files in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** ActiveX DLL, WinForms exe
 
@@ -9,11 +9,12 @@ VB6 working copy of `schedule` from Dave Robinson's OneDrive Historical Dev `VB`
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
 | `TaskScheduler` (`ScheduleCtrl.vbp`) | VB6 | ActiveX DLL | Edanmo's Task Scheduler Class v1.01 |
-| `Project2` (`Test/Test.vbp`) | VB6 | WinForms exe | Test |
+| `Project2` (`Test/Test.vbp`) | VB6 | WinForms exe | Test host for the scheduler DLL |
 
 ## How to open
 
-Open the `.vbp` in Visual Basic 6.0 IDE:
+Open the group or `.vbp` in Visual Basic 6.0 IDE:
+- `Schedule.vbg`
 - `ScheduleCtrl.vbp`
 - `Test/Test.vbp`
 
@@ -21,7 +22,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 
 - Visual Basic 6.0 IDE
 - Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
-  - `COMDLG32.OCX`
+  - Edanmo OLE interfaces (`olelib.tlb`) as referenced by the project
 
 ## Attribution and provenance
 
