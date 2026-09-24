@@ -26,7 +26,7 @@ Open the group or `.vbp` in Visual Basic 6.0 IDE:
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/schedule`.
+Working copy from my Historical Dev folder `VB/schedule`.
 Company names in `.vbp` files: Eduardo A. Morcillo.
 Third-party attribution: Eduardo A. Morcillo (Edanmo). See `THIRD_PARTY_NOTICES.md`.
 
